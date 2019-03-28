@@ -5,9 +5,9 @@ A simple implementation of gbdt + lr. It was proposed by Facebook, you can get t
 It's now widely used in CTR prediction
 In our case we use it to predict whether two shops are same store.
 
-###Requirements
+### Requirements
 - python 2.7
 - sklearn
 
-###Usage
-python gbdt_lr_train.py --
+### Usage
+python gbdt_lr_train.py --file_path PATH --test_path PATH
