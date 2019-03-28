@@ -211,7 +211,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--file_path")
     parser.add_argument("--test_path")
-    parser.add_argument("--outdir_path")
     parser.add_argument("--estimators", default = 100, type = int)
     parser.add_argument("--min_samples_split", default = 5, type = int)
     parser.add_argument("--learning_rate", default = 0.05, type = float)
