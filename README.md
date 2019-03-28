@@ -9,6 +9,7 @@ In our case we use it to predict whether two shops are same store.
 ### Requirements
 - python 2.7
 - sklearn
+- numpy
 
 ### Usage
 python gbdt_lr_train.py --file_path PATH --test_path PATH
